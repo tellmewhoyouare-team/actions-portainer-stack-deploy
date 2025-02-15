@@ -272,7 +272,7 @@ class PortainerClient {
             StackFileContent: patch.stack,
             Env: env,
             Prune: patch.prune,
-            PullImage: patch.pull
+            PullImage: true,
         }, {
             params: {
                 endpointId: patch.endpointId
